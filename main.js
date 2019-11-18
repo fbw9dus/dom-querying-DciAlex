@@ -69,6 +69,7 @@ h1Menu.style.justifyContent = "center";
 
 ///**main */
 
+
 main.style.display = "flex"
 main.style.flexDirection = "row"
 main.style.flexWrap = "wrap"
@@ -97,12 +98,10 @@ foodCatall.forEach(item =>{
 })
 
 
-///** Menu main */
+
 
 
  
-main.style.display = "flex";
-main.style.justifyContent = "center";
 
 
 
@@ -121,9 +120,10 @@ foodCatall.forEach(item =>{
 
 ///**category names */
 
-// labelAll.forEach(item =>{
-//     labelAll.style.borderBottom= " ";
-// })
+labelAll.forEach(item =>{
+    item.style.textDecoration = "underline black";
+    
+})
 
 
 ////*** allergiesAlert */
